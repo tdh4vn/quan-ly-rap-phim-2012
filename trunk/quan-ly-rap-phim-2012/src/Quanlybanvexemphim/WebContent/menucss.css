@@ -1,0 +1,101 @@
+@CHARSET "utf-8";
+
+* {
+	margin: 2px 0 0 0;
+	padding: 0
+}
+
+body {
+	padding: 0;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#container {
+	width: 100%;
+	margin: 0 auto;
+	padding: 30 0 0 30;
+	/*border: 1px solid #686;*/
+	background: url(images/navigation-bg.gif) 0 0 repeat-x;
+	height: 66px;
+	float: inherit;
+}
+
+#container ul {
+	margin-left: 10%;
+	padding: 0;
+	float: center;
+	width: 100%;
+	list-style: none;
+	/*behavior: url(whateverhover.htc);*/
+}
+
+#container ul li {
+	width: 100px;
+	float: left;
+	height: 29px;
+	background: url(images/navigation-divider.gif) 100% 0 no-repeat;
+	position: relative;
+	float: left;
+}
+
+#container li a {
+	width: 100px;
+	height: 33px;
+	display: block;
+	line-height: 33px;
+	text-align: center;
+	color: #FAF0C2;
+	font-weight: bold;
+	font-size: 11px;
+	background-color: inherit;
+	text-decoration: none;
+	/*padding: .3em 6px;*/
+}
+
+#container li a:hover {
+	color: white;
+	background: url(images/navigation-bg-selected.gif) 0 0 no-repeat;
+}
+
+#container li ul {
+	background: #808000;
+	/*background: url(images/navigation-dropdown-divider.gif);*/
+	position: absolute;
+	display: none;
+	width: 10em;
+}
+
+#container li:hover ul {
+	display: block;
+}
+
+#container ul li ul li {
+	border: 1px solid #686;
+	width: 100%;
+}
+
+#container a.signup {
+	width: 71px;
+	height: 28px;
+	display: block;
+	background: url(images/sign-up-btn.gif) 0 0 no-repeat;
+	margin-right: 10%;
+	float: right;
+}
+
+#container a.signup:hover {
+	background: url(images/sign-up-btn-selected.gif) 0 0 no-repeat;
+}
+
+#container a.signout {
+	width: 71px;
+	height: 28px;
+	display: block;
+	background: url(images/sign-out-btn.gif) 0 0 no-repeat;
+	margin-right: 10%;
+	float: right;
+}
+
+#container a.signout:hover {
+	background: url(images/sign-out-btn-selected.gif) 0 0 no-repeat;
+}
