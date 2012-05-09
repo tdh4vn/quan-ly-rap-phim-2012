@@ -1,0 +1,39 @@
+@CHARSET "UTF-8";
+
+.div_tieude {
+	margin: 0 auto;
+	width: 1024px;
+	height: 25px;
+	background-color: #BDBDBD;
+	-moz-border-radius: 10px;
+}
+.font_tieude {
+	font-family: Tahoma;
+	font-size: medium;
+	color: #006666;
+	vertical-align: middle;
+}
+.table_1 {
+	margin: 0 auto;
+	width: 1024px;
+	background-color: #ECECEC;
+}
+.div_2{
+	margin-top: 25px;
+	margin-left: 5px;
+	border: 1px solid;
+	border-color: #CFCFCF;
+	border-collapse: collapse;
+	width: 1000px;
+	}
+.table_2 {
+	width: 900x;
+}
+.tr{
+	font: bold;
+	height: 50px;
+	
+}
+.right{
+	text-align: right;
+	}
